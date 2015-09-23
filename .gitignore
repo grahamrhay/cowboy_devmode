@@ -1,0 +1,11 @@
+.vagrant/
+ebin/
+_rel/
+*.swp
+deps/
+.erlang.mk.packages.v2
+.erlang.mk/
+test/*.beam
+*.plt
+relx
+cowboy_devmode.d

@@ -1,0 +1,14 @@
+{application, cowboy_devmode, [
+    {description, ""},
+    {vsn, "0.1.0"},
+    {id, "git"},
+    {modules, []},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy
+    ]},
+    {mod, {cowboy_devmode_app, []}},
+    {env, []}
+]}.
